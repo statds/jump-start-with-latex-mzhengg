@@ -10,6 +10,7 @@
 \usepackage{natbib}
 \usepackage{enumitem}
 \usepackage{setspace}
+\usepackage{lipsum}
 
 \usepackage[pagewise]{lineno}
 %\linenumbers*[1]
@@ -63,6 +64,7 @@
 \doublespace
 
 \begin{abstract}
+\lipsum[1]
 Text
 
 \bigskip
@@ -73,6 +75,7 @@ KEYWORD;
 
 \section{Introduction}
 \label{sec:intro}
+\lipsum[1]
 
 % one equation in displaystyle %
 \begin{equation}
@@ -83,11 +86,15 @@ KEYWORD;
 \section{Unspecified Parameters}
 \label{sec:fitted}
 
+\lipsum[1]
+
 % one in-line math expression %
 $B_{n}(x) = \sqrt{n}(F_{n}(x) - F_{\hat\theta_n}(x))$
 
 \section{Serially Dependent Data}
 \label{sec:dependence}
+
+\lipsum[1]
 
 % one table %
 \begin{center}
@@ -97,12 +104,14 @@ $B_{n}(x) = \sqrt{n}(F_{n}(x) - F_{\hat\theta_n}(x))$
  cell4 & cell5 & cell6 \\ 
  cell7 & cell8 & cell9 \\ 
  \hline
- \label{table:table1}
 \end{tabular}
+\label{table:table1}
 \end{center}
 
 \section{Unspecified Parameters and Serially Dependent Data}
 \label{sec:fittedwithdependence}
+
+\lipsum[1]
 
 % one figure %
 I would prefer that \autoref{fig:example} be placed right after this paragraph.
